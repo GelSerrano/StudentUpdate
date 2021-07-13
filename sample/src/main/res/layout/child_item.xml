@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <!--CardView that holds the elements
+        of the child RecyclerView -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <!--Image in the CardView-->
+            <!--Here we have already given
+                the source for the ImageView
+                and we will not assign it
+                in the Java code-->
+            <!--So all the ImageViews will
+                hold the same image-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/child_item_week"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Title goes here"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/child_item_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="Title goes here"
+                        android:textSize="12sp"
+                        android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/child_item_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="sample text sample text sample text sample text"
+                    android:textSize="16sp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <Button
+                        android:id="@+id/btn_card_view"
+                        android:layout_width="80dp"
+                        android:layout_height="37dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:padding="2dp"
+                        android:text="VIEW" />
+
+                    <Button
+                        android:id="@+id/btn_card_edit"
+                        android:layout_width="80dp"
+                        android:layout_height="37dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:padding="2dp"
+                        android:text="EDIT" />
+
+                    <Button
+                        android:id="@+id/btn_card_del"
+                        android:layout_width="80dp"
+                        android:layout_height="37dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="4dp"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:padding="2dp"
+                        android:text="DELETE" />
+
+                </LinearLayout>
+
+                <!--Text in the CardView-->
+
+
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

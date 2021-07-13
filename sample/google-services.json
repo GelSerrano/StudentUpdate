@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "508275165963",
+    "firebase_url": "https://caps-e4102.firebaseio.com",
+    "project_id": "caps-e4102",
+    "storage_bucket": "caps-e4102.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508275165963:android:22b86d9103a01b4aef300e",
+        "android_client_info": {
+          "package_name": "com.example.student"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508275165963-cq5hc85jnu47reh9p9dapis069qmej1j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8Bo9eHQh7lNnvX4IIMg7u6gWe0oR-Zdg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508275165963-cq5hc85jnu47reh9p9dapis069qmej1j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508275165963:android:7ea28599b3d79873ef300e",
+        "android_client_info": {
+          "package_name": "com.example.teacher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508275165963-cq5hc85jnu47reh9p9dapis069qmej1j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8Bo9eHQh7lNnvX4IIMg7u6gWe0oR-Zdg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508275165963-cq5hc85jnu47reh9p9dapis069qmej1j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508275165963:android:780a30f79524503def300e",
+        "android_client_info": {
+          "package_name": "com.github.example.richtexteditor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508275165963-cq5hc85jnu47reh9p9dapis069qmej1j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8Bo9eHQh7lNnvX4IIMg7u6gWe0oR-Zdg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508275165963-cq5hc85jnu47reh9p9dapis069qmej1j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

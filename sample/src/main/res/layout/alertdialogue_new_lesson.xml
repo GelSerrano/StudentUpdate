@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/tv_dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Lesson"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_period"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Period: "
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"/>
+
+        <Spinner
+            android:id="@+id/spinner_period"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_week"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Week: "
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/et_week"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:textAlignment="textEnd"
+            android:textSize="14sp"
+            android:gravity="end"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/et_period"
+            android:layout_width="0sp"
+            android:layout_height="0sp"
+            android:visibility="gone"
+            android:textAlignment="textEnd"
+            android:textSize="14sp"
+            android:text=" "
+            android:gravity="end"
+          />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title: "
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/et_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:textAlignment="textEnd"
+            android:textSize="14sp"
+            android:gravity="end"
+          />
+
+
+    </LinearLayout>
+</LinearLayout>
